@@ -18,10 +18,17 @@ App Transport Security (ATS) is an Apple platform feature that enforces security
 Resource: Preventing Insecure Network Connections - https://developer.apple.com/documentation/bundleresources/information_property_list/nsapptransportsecurity
   
 ## Networking
+IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses and provides a much larger address space. As more phones, sensors, and connected devices use government services, IPv6 helps support the growing number of devices that need network addresses. IPv6 also includes improvements to network configuration. Supporting IPv6 can help the service scale, although secure configuration and compatibility with existing networks are still important.
+Resource: IPv6 - Internet Protocol Version 6 - https://www.rfc-editor.org/rfc/rfc8200.html
+  
 
 ## Cybersecurity
+Prompt injection occurs when malicious instructions try to manipulate an AI system into ignoring its intended rules. Direct prompt injection comes from a user's input, while indirect prompt injection can be hidden in external content the AI retrieves, such as a webpage or document. Two mitigations are to treat retrieved content as untrusted data and to restrict the AI's access to sensitive tools and information. These controls reduce risk but cannot eliminate it completely.
+Resource: Prompt injection - https://owasp.org/www-project-top-10-for-large-language-model-applications/
 
 ## Data
+Anonymization removes identifying information so that a person can no longer reasonably be identified from the data. Pseudonymization replaces direct identifiers with artificial labels, but the data may still be linked back to a person using additional information. For a government AI assistant, removing names alone may not fully anonymize chat logs. Pseudonymized data generally remains personal data under data protection law, while properly anonymized data may fall outside its scope.
+Resource: What is personal data? - https://commission.europa.eu/law/law-topic/data-protection/reform/what-personal-data_en
 
 ## Misconception in My Track
 

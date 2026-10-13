@@ -31,5 +31,9 @@ Anonymization removes identifying information so that a person can no longer rea
 Resource: What is personal data? - https://commission.europa.eu/law/law-topic/data-protection/reform/what-personal-data_en
 
 ## Misconception in My Track
+A common misconception is that a system prompt alone can fully prevent prompt injection. In reality, attackers may still manipulate an AI system through direct user input or indirect instructions hidden in retrieved content. System prompts are useful, but they are not a complete security boundary. The OWASP Top 10 for LLM Applications discusses prompt injection under the heading “LLM01: Prompt Injection” and explains why additional safeguards are needed, including limiting privileges and controlling how external content is handled.
+Resource: OWASP Top 10 for Large Language Model Applications - https://owasp.org/www-project-top-10-for-large-language-model-applications/
 
 ## Open Question
+How can a government AI assistant detect indirect prompt injection hidden in retrieved documents while still providing accurate and helpful answers to citizens?
+ 

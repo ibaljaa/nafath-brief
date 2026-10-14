@@ -1,5 +1,5 @@
 Version: NAFATH-V3
-Track: Cybersecurity
+Your track: Cybersecurity
 
 ## Overview
 A trustworthy government AI assistant depends on six connected IT fields. Software engineering defines a stable public API so the mobile app can communicate with government services as they evolve. Artificial intelligence uses retrieval-augmented generation (RAG) to retrieve relevant information from approved sources before generating answers. Mobile security helps protect communication between the app and its servers. Networking provides the addressing and connectivity needed for citizens to access the service across different devices and networks. Cybersecurity reduces risks such as prompt injection, unauthorized access, and exposure of sensitive information. Data management determines how chat logs are stored, protected, and retained while respecting privacy requirements. These fields must work together to keep the service reliable, accessible, and safe. My Cybersecurity track focuses on mitigating direct and indirect prompt injection in a government AI assistant.

@@ -8,6 +8,7 @@ A trustworthy government AI assistant depends on six connected IT fields. Softwa
 
 ## Software
 Under Semantic Versioning, a public API must increase its MAJOR version when a change is incompatible with the previous version. A MINOR version increases when new functionality is added in a backward-compatible way. A PATCH version increases when backward-compatible bug fixes are made. For example, changing a required API field in a way that breaks older clients may require a MAJOR release, while fixing a compatible bug may require a PATCH release.
+
 Resource: Semantic Versioning 2.0.0 - https://semver.org/spec/v2.0.0.html
 
 ## AI
